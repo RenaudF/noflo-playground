@@ -8,6 +8,12 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "noflo": {
+    "components": {
+      "logger": "components/logger.js",
+      "forwarder": "components/forwarder.js"
+    }
+  },
   "dependencies": {
     "noflo": "~0.5.13",
     "noflo-filesystem": "~1.0.6",

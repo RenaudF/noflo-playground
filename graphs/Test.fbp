@@ -1,0 +1,3 @@
+# Tokens(token-distributor) OUT -> IN Console(logger)
+# Tokens(token-distributor) OUT -> IN Console(core/Output)
+'test' -> IN Forwarder(forwarder) OUT -> IN Console(logger)
