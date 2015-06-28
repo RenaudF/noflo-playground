@@ -1,0 +1,17 @@
+{
+  "name": "noflo-example",
+  "version": "0.0.0",
+  "description": "learning noflo ftw",
+  "author": "Renaud Fontana <sirgzu@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "noflo": "~0.5.13",
+    "noflo-filesystem": "~1.0.6",
+    "noflo-core": "~0.1.14",
+    "noflo-math": "0.0.6"
+  }
+}
