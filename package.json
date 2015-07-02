@@ -11,7 +11,8 @@
   "noflo": {
     "components": {
       "logger": "components/logger.js",
-      "forwarder": "components/forwarder.js"
+      "forwarder": "components/forwarder.js",
+      "tokens": "components/tokens.js"
     }
   },
   "dependencies": {

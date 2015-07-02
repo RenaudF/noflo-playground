@@ -1,3 +1,7 @@
 # Tokens(token-distributor) OUT -> IN Console(logger)
 # Tokens(token-distributor) OUT -> IN Console(core/Output)
-'test' -> IN Forwarder(forwarder) OUT -> IN Console(logger)
+#'test' -> IN Forwarder(forwarder) OUT -> IN Console(logger)
+
+Tokens(tokens) OUT -> IN Console(core/Output)
+Tokens READY -> REQUIRE Tokens
+'tokens.json' -> IN Read(filesystem/ReadFile) OUT -> IN Tokens
