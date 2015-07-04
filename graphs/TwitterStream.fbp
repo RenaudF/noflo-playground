@@ -1,0 +1,3 @@
+TwitterFeed(twitterfeed) OUT -> IN Filter(twittertextfilter) OUT -> IN Console(core/Output)
+'tokens.json' -> IN Read(filesystem/ReadFile) OUT -> TOKENS TwitterFeed
+'locations=-10,52,-6,55' -> OPTIONS TwitterFeed

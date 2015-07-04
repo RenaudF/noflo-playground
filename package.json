@@ -12,6 +12,8 @@
     "components": {
       "logger": "components/logger.js",
       "forwarder": "components/forwarder.js",
+      "twitterfeed": "components/twitterfeed.js",
+      "twittertextfilter": "components/twittertextfilter.js",
       "tokens": "components/tokens.js"
     }
   },
@@ -19,6 +21,7 @@
     "noflo": "~0.5.13",
     "noflo-filesystem": "~1.0.6",
     "noflo-core": "~0.1.14",
-    "noflo-math": "0.0.6"
+    "noflo-math": "0.0.6",
+    "oauth": "~0.9.13"
   }
 }
